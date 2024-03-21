@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import MovieCard from "./MovieCard";
 import Menu from "./Menu";
 import SearchIcon from "./search.svg";
+import Footer from "./Footer";
 import "./App.css";
 
 const API_URL = "http://www.omdbapi.com?apikey=adf1f2d7";
@@ -51,6 +52,7 @@ const App = () => {
           <h2>No movies found</h2>
         </div>
       )}
+      <Footer />
     </div>
   );
 };
